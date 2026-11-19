@@ -13,7 +13,7 @@ This file records where each control in the safeAI *human-dignity floor* (`jb-co
 ## What "checked" means here, and what it does not
 
 - **How.** The repo owner supplied the full text of the encyclical and of *Antiqua et Nova* as Word files, and the encyclical's 224 footnotes as text and Word files. An automated script split the full text into its 245 numbered paragraphs and searched each paragraph for every quoted fragment below. All 28 quoted fragments from the encyclical were found in the paragraph cited, and all 8 quoted fragments from *Antiqua et Nova* were found in theirs. The paraphrases were then read against the paragraphs by hand and found consistent, with the corrections noted below.
-- **Limits.** The Word file is the owner's copy. It was **not** compared with the live Vatican page, so a transcription difference would not show up. A person should still skim the surrounding paragraphs, because a script confirms that words exist, not that a paraphrase captures their meaning.
+- **Limits.** The Word files are the owner's copies. The owner reports having compared them with the live Vatican pages; that comparison was not repeated here. A person should still skim the surrounding paragraphs, because a script confirms that words exist, not that a paraphrase captures their meaning.
 - **Not a Church review.** No theologian, bishop or other Catholic advisor has reviewed these mappings. Do not describe the floor as Church-approved or Church-endorsed.
 - **BELIEF.md.** An AI-compiled file in this repo and an earlier product brief cite many of the same paragraphs. Their agreement with each other was never independent confirmation; the check above against the full text is.
 
@@ -72,7 +72,7 @@ Done means: fragment found in the paragraph cited, in the full text supplied by 
 | [x] | L4.03, L4.04 | 141, 142, 238 | grooming and exploitation; "manipulating images and videos"; accompanying children | script, 2026-11-19 |
 | [x] | L3.04 | 198, 199, 200 | "irreversible decisions to artificial systems" | script, 2026-11-19 |
 | [x] | all | footnotes | Read; citations only | read by hand, 2026-11-19 |
-| [ ] | all | whole file | Comparison of the owner's copies (encyclical and *Antiqua et Nova*) with the live Vatican pages | |
+| [x] | all | whole file | Comparison of the owner's copies (encyclical and *Antiqua et Nova*) with the live Vatican pages | repo owner, as reported on 2026-11-19 (not independently re-checked) |
 | [ ] | all | whole file | Advisor review of the readings and analogies | |
 
 If a row is later found wrong, correct this file first. The safeAI floor does not depend on these paragraphs, so a failed row means this record needs fixing, not that a control must be removed.
